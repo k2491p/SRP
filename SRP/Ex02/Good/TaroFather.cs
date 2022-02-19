@@ -6,23 +6,26 @@ namespace SRP.Ex02.Good
 {
     class TaroFather
     {
-        public TaroFather(Daughter daughter)
+        public TaroFather(Daughter daughter, bool isSleepy)
         {
-            this.Daughter = daughter;
+            Daughter = daughter;
+            IsSleepy = isSleepy;
         }
 
         public Daughter Daughter { get; set; }
+        public bool IsSleepy { get; set; }
 
         public void Warn()
         {
-            if (Daughter.PlaysTrick())
+            if (Daughter.PlaysTrick() && IsSleepy)
             {
-                Console.WriteLine("こらっ、{0}ちゃん！！　だめだぞ！！！", Daughter.Name);
+                Console.WriteLine("こらっ、" + Daughter.Name + "ちゃん！！　だめだぞ！！！");
             }
             else
             {
                 Console.WriteLine("特に叱る必要もないか...");
             }
         }
+
     }
 }

@@ -11,7 +11,7 @@ namespace SRP.Ex02.Good
             Name = name;
         }
 
-        public string Name { get; set; }
+        public string Name { get; }
         public bool IsHangry { get; set; } = true;
         public bool IsTiered { get; set; } = true;
 

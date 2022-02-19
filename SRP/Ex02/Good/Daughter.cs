@@ -6,13 +6,14 @@ namespace SRP.Ex02.Good
 {
     public class Daughter
     {
-        public Daughter(string name)
+        public Daughter(string name, bool isHangry)
         {
             Name = name;
+            IsHangry = isHangry;
         }
 
         public string Name { get; set; }
-        public bool IsHangry { get; set; } = true;
+        public bool IsHangry { get; set; }
 
         public bool PlaysTrick()
         {

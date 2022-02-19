@@ -17,7 +17,7 @@ namespace SRP.Ex02.Good
         {
             if (JuniorColleague.SkipsWork())
             {
-                Console.WriteLine("{0}さん、僕も仕事をサボりたいよ。", JuniorColleague.Name);
+                Console.WriteLine(JuniorColleague.Name + "さん、僕も仕事をサボりたいよ。");
             }
             else
             {
