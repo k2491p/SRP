@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SRP.Ex02.Good
+namespace SRP.Good
 {
     public class Daughter
     {

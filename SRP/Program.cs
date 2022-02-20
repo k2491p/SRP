@@ -1,5 +1,5 @@
-﻿using SRP.Ex02.Bad;
-using SRP.Ex02.Good;
+﻿using SRP.Bad;
+using SRP.Good;
 using System;
 
 namespace SRP
